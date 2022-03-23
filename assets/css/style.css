@@ -86,9 +86,10 @@ p {
     margin-bottom: 32px;
 }
 
-.benefits h3 {
+.benefits h2 {
     margin-bottom: 10px;
     text-align: center;
+    font-size: 1.17em;
 }
 
 .benefits img {
@@ -128,6 +129,6 @@ footer {
     text-align: center;
 }
 
-footer h4 {
+footer h2 {
     font-size: 20px;
 }
