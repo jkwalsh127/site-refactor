@@ -38,7 +38,7 @@ My approach was to try and focus on one subject at a time, and so proceeded in m
 
 ## Usage
 
-Click <a href="https://jkwalsh127.github.io/site-refactor/">here</a> to check out the new and improved site!
+Click <a href="https://jkwalsh127.github.io/site-refactor/">**here**</a> to check out the new and improved site!
 
 
 ## Credits
