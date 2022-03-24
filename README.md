@@ -1,2 +1,2 @@
 # site-refactor
-Site-refactor assignment for homework-1
+Site-refactor assignment for css and html class
