@@ -10,7 +10,7 @@ without changing the original appearance on the user side.
 
 ## The Process
 
-The starting code had a few bugs, had poor structuring of heading tags, and did not
+The starting code had at least one bug, had poor structuring of heading tags, and did not
 include any semantic tags or alt attritubtes to images. 
 
 
