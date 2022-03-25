@@ -1,23 +1,16 @@
+/* A few universal attributes to format the page */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/* Background color for the site is set here */
 body {
     background-color: #d9dcd6;
 }
 
+/* The header section receives color, formats the company name, and houses the site navigation links */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -51,6 +44,12 @@ header nav ul li {
     margin-left: 25px;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* The hero section is handled from this single id */
 #hero {
     height: 800px;
     width: 100%;
@@ -60,16 +59,7 @@ header nav ul li {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* The content sectioon is laid out in sections that contain images, headings, and paragraphs */
 .content {
     width: 75%;
     display: inline-block;
@@ -89,11 +79,27 @@ header nav ul li {
     max-height: 200px;
 }
 
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+.content h2 p {
+    font-size: 16px;
+}
+
+/* The benefits section has similar formatting to the content section, but it is given
+it's own unique set of styling */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -107,8 +113,10 @@ header nav ul li {
 
 }
 
-.benefits p {
-    margin-bottom: 32px;
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
 
 .benefits h2 {
@@ -117,12 +125,11 @@ header nav ul li {
     font-size: 1.17em;
 }
 
-.benefits img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+.benefits p {
+    margin-bottom: 32px;
 }
 
+/* The footer includes two short messages, one in a heading tag and the other in paragraph */
 footer {
     padding: 30px;
     clear: both;
@@ -132,4 +139,8 @@ footer {
 
 footer h3 {
     font-size: 20px;
+}
+
+footer p {
+    font-size: 16px;
 }
