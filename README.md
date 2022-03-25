@@ -13,8 +13,8 @@ without changing the original appearance on the user side.
 The starting code had at least one bug, had poor structuring of heading tags, and did not
 include any semantic tags or alt attritubtes to images. 
 
-
-![code snippet - before snapshot](./assets/images/before-snapshot.jpg)
+#### Code snippit - Before Editing
+![code snippet - before editing](./assets/images/before-snapshot.jpg)
 
 
 ---
@@ -30,8 +30,8 @@ My approach was to try and focus on one subject at a time. My task list was as f
 4. provide better structure for the heading tags 
 5. add `alt` attributes to all `<img>`
 
-
-![code snippet - after snapshot](./assets/images/after-snapshot.jpg)
+#### Code Snippet - After Editing
+![code snippet - after editing](./assets/images/after-snapshot.jpg)
 
 
 ---
